@@ -1,6 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[01/13/26]")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[01/14/26]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -28,10 +28,10 @@
       (Sort User)))
   (Folder "Logs")
   (PartMRUSelector
-    (0
+    (OFFPAGELEFT-L
       (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
-    (OFFPAGELEFT-L
+    (0
       (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (LM4040
@@ -69,7 +69,7 @@
       (Path "Design Resources" ".\25-335-0.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" ".\library.olb")
-      (Select "Design Resources" ".\25-335-0.dsn"))
+      (Select "Design Resources" ".\25-335-0.dsn" "SCHEMATIC1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -79,29 +79,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1100 24 929")
-        (Scroll "0 11")
-        (Zoom "107")
-        (Occurrence "/"))
-      (Path "D:\GIT\HW\PCB335\ORCAD\25-335-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "MASMETRO"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1100 24 929")
-        (Scroll "0 0")
-        (Zoom "107")
-        (Occurrence "/"))
-      (Path "D:\GIT\HW\PCB335\ORCAD\25-335-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "uC"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1100 24 929")
-        (Scroll "0 0")
-        (Zoom "107")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1100 24 929")
+        (Scroll "0 -23")
+        (Zoom "100")
         (Occurrence "/"))
       (Path "D:\GIT\HW\PCB335\ORCAD\25-335-0.DSN")
       (Schematic "SCHEMATIC1")
@@ -109,9 +89,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1100 24 929")
-        (Scroll "0 0")
-        (Zoom "107")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1100 24 929")
+        (Scroll "86 -23")
+        (Zoom "100")
         (Occurrence "/"))
       (Path "D:\GIT\HW\PCB335\ORCAD\25-335-0.DSN")
       (Schematic "SCHEMATIC1")
