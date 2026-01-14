@@ -69,7 +69,7 @@
       (Path "Design Resources" ".\25-335-0.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" ".\library.olb")
-      (Select "Design Resources" ".\25-335-0.dsn"))
+      (Select "Design Resources" ".\25-335-0.dsn" "SCHEMATIC1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -79,7 +79,7 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1100 24 929")
+        (Placement "44 2 3 -1 -1 5 24 5 1100 24 929")
         (Scroll "0 -23")
         (Zoom "100")
         (Occurrence "/"))
@@ -95,26 +95,6 @@
         (Occurrence "/"))
       (Path "D:\GIT\HW\PCB335\ORCAD\25-335-0.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "CAN BUS"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1100 24 929")
-        (Scroll "20 -23")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "D:\GIT\HW\PCB335\ORCAD\25-335-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "STARTER"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1100 24 929")
-        (Scroll "0 -23")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "D:\GIT\HW\PCB335\ORCAD\25-335-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "MASMETRO")))
+      (Page "CAN BUS")))
   (MPSSessionName "user")
   (LastUsedLibraryBrowseDirectory "D:\Cadence\SPB_17.4\tools\capture\library"))
