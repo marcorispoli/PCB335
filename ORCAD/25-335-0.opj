@@ -29,7 +29,11 @@
   (Folder "Logs")
   (PartMRUSelector
     (0
-      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (LibraryName "F:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (BD7LS08ZG
+      (FullPartName "BD7LS08ZG.Normal")
+      (LibraryName "D:\GIT\HW\PCB335\ORCAD\LIBRARY.OLB")
       (DeviceIndex "0"))
     (OFFPAGELEFT-L
       (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
@@ -69,7 +73,7 @@
       (Path "Design Resources" ".\25-335-0.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" ".\library.olb")
-      (Select "Design Resources" ".\25-335-0.dsn" "SCHEMATIC1" "CONNECTORS"))
+      (Select "Design Resources" ".\25-335-0.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -95,6 +99,36 @@
         (Occurrence "/"))
       (Path "D:\GIT\HW\PCB335\ORCAD\25-335-0.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "DETECTOR")))
+      (Page "DETECTOR"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 5 24 5 1306 24 929")
+        (Scroll "-9 0")
+        (Zoom "107")
+        (Occurrence "/"))
+      (Path "D:\GIT\HW\PCB335\ORCAD\25-335-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "CONNECTORS"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1306 24 929")
+        (Scroll "-9 0")
+        (Zoom "107")
+        (Occurrence "/"))
+      (Path "D:\GIT\HW\PCB335\ORCAD\25-335-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "INVERTER"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1306 24 929")
+        (Scroll "-26 -7")
+        (Zoom "104")
+        (Occurrence "/"))
+      (Path "D:\GIT\HW\PCB335\ORCAD\25-335-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "MASMETRO")))
   (MPSSessionName "user")
   (LastUsedLibraryBrowseDirectory "D:\Cadence\SPB_17.4\tools\capture\library"))
