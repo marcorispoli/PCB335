@@ -85,26 +85,44 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\25-335-0.dsn")
-      (Path "Design Resources" ".\25-335-0.dsn" "SCHEMATIC1")
+      (Path "Design Resources"
+         "c:\users\marco\documents\data\progetti-git\hw\pcb-25-335\orcad\25-335-0.dsn")
+      (Path "Design Resources"
+         "c:\users\marco\documents\data\progetti-git\hw\pcb-25-335\orcad\25-335-0.dsn"
+         "SCHEMATIC1")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" ".\library.olb")
-      (Select "Design Resources" ".\25-335-0.dsn"))
+      (Path "Design Resources" "Library"
+         "c:\users\marco\documents\data\progetti-git\hw\pcb-25-335\orcad\library.olb")
+      (Select "Design Resources"
+         "c:\users\marco\documents\data\progetti-git\hw\pcb-25-335\orcad\25-335-0.dsn"
+         "SCHEMATIC1" "DETECTOR"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 337 0 911"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 332 0 888"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 52 1154 52 700")
-        (Scroll "0 0")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1323 24 929")
+        (Scroll "-35 -7")
+        (Zoom "104")
         (Occurrence "/"))
-      (Path "D:\GIT\HW\PCB335\ORCAD\25-335-0.DSN")
+      (Path
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-25-335\ORCAD\25-335-0.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "uC")))
-  (MPSSessionName "user")
+      (Page "INPUT"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1323 24 929")
+        (Scroll "-35 -7")
+        (Zoom "104")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-25-335\ORCAD\25-335-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "DETECTOR")))
+  (MPSSessionName "marco")
   (LastUsedLibraryBrowseDirectory "D:\Cadence\SPB_17.4\tools\capture\library"))
