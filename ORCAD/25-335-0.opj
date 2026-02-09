@@ -1,128 +1,109 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[01/20/26]")
   (ProjectType "PCB")
   (Folder "Design Resources"
-    (Folder "Library"
-      (File ".\library.olb"
-        (Type "Schematic Library")))
-    ("Allegro Netlist Directory" "allegro")
+    (Folder "Library")
     (File ".\25-335-0.dsn"
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
-    (DOCKED "TRUE")
-    (DOCKING_POSITION "59420")
     (NoModify)
-    (Display_Online_DRC_Results "FALSE")
-    (ANNOTATE_Scope "0")
-    (ANNOTATE_Mode "1")
-    (ANNOTATE_Action "0")
-    (Annotate_Page_Order "0")
-    (ANNOTATE_Reset_References_to_1 "FALSE")
-    (ANNOTATE_No_Page_Number_Change "FALSE")
-    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
-    (ANNOTATE_IncludeNonPrimitive "FALSE")
-    (ANNOTATE_PreserveDesignator "FALSE")
-    (ANNOTATE_PreserveUserEdits "FALSE")
-    (ANNOTATE_Refdes_Control_Required "FALSE")
-    (Update_Instace_for_External_Design "FALSE")
-    (Annotate_type "Default")
-    (width_pages "100")
-    (width_start "80")
-    (width_End "80"))
-  (Folder "Layout")
-  (Folder "Outputs")
+    (Netlist_TAB "3")
+    (LAYOUT_Netlist_File "25-335-0.MNL")
+    (LAYOUT_PCB_Footprint "{PCB Footprint}")
+    (FALSE)
+    (LAYOUT_Units "0")
+    (FALSE)
+    (FALSE)
+    (FALSE)
+    (FALSE))
+  (Folder "Outputs"
+    (File ".\25-335-0.mnl"
+      (Type "LAYOUT Netlist File")))
   (Folder "Referenced Projects")
-  (Folder "PSpice Resources"
-    (Folder "Simulation Profiles")
-    (Folder "Model Libraries"
-      (Sort User))
-    (Folder "Stimulus Files"
-      (Sort User))
-    (Folder "Include Files"
-      (Sort User)))
-  (Folder "Logs")
   (PartMRUSelector
-    (0
-      (LibraryName "F:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (BD7LS08ZG
-      (FullPartName "BD7LS08ZG.Normal")
-      (LibraryName "D:\GIT\HW\PCB335\ORCAD\LIBRARY.OLB")
-      (DeviceIndex "0"))
-    (OFFPAGELEFT-L
-      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (LM4040
-      (FullPartName "LM4040.Normal")
-      (LibraryName "D:\GIT\HW\PCB335\ORCAD\LIBRARY.OLB")
-      (DeviceIndex "0"))
-    (L
-      (FullPartName "L.Normal")
-      (LibraryName
-         "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
-      (DeviceIndex "0"))
-    (DRM1-5-S5-S
-      (FullPartName "DRM1-5-S5-S.Normal")
-      (LibraryName "D:\GIT\HW\PCB335\ORCAD\LIBRARY.OLB")
-      (DeviceIndex "0"))
-    (AD7740
-      (FullPartName "AD7740.Normal")
-      (LibraryName "D:\GIT\HW\PCB335\ORCAD\LIBRARY.OLB")
-      (DeviceIndex "0"))
-    ("HEADER 15X2"
-      (FullPartName "HEADER 15X2.Normal")
-      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
-      (DeviceIndex "0"))
-    ("HEADER 16X2"
-      (FullPartName "HEADER 16X2.Normal")
-      (LibraryName "D:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
-      (DeviceIndex "0"))
-    (VCC
-      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+    (TMH-XXXXS-TRACO
+      (FullPartName "TMH-XXXXS-TRACO.Normal")
+      (LibraryName "E:\00.LIBRERIE ORCAD\OC_CAPTURE\03.INTEGRATI.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "c:\users\marco\documents\data\progetti-git\hw\pcb-25-335\orcad\25-335-0.dsn")
-      (Path "Design Resources"
-         "c:\users\marco\documents\data\progetti-git\hw\pcb-25-335\orcad\25-335-0.dsn"
-         "SCHEMATIC1")
-      (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library"
-         "c:\users\marco\documents\data\progetti-git\hw\pcb-25-335\orcad\library.olb")
-      (Select "Design Resources"
-         "c:\users\marco\documents\data\progetti-git\hw\pcb-25-335\orcad\25-335-0.dsn"
-         "SCHEMATIC1" "DETECTOR"))
+      (Path "Design Resources" ".\25-335-0.dsn")
+      (Path "Design Resources" ".\25-335-0.dsn" "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources" ".\25-335-0.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 332 0 888"))
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 541"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1323 24 929")
-        (Scroll "-35 -7")
-        (Zoom "104")
+        (Placement "44 0 1 -1 -1 -8 -31 26 1615 26 610")
+        (Scroll "-186 0")
+        (Zoom "100")
         (Occurrence "/"))
       (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-25-335\ORCAD\25-335-0.DSN")
+         "E:\00.LAVORI IN CORSO\METALTRONICA\25-335-0 ( CONTROLLO GENERATORE MAMMOGRAFICO)\25-335-0.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "INPUT"))
+      (Page "uC"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1323 24 929")
-        (Scroll "-35 -7")
-        (Zoom "104")
+        (Placement "44 0 1 -1 -1 -8 -31 104 1693 104 688")
+        (Scroll "-186 0")
+        (Zoom "100")
         (Occurrence "/"))
       (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-25-335\ORCAD\25-335-0.DSN")
+         "E:\00.LAVORI IN CORSO\METALTRONICA\25-335-0 ( CONTROLLO GENERATORE MAMMOGRAFICO)\25-335-0.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "DETECTOR")))
-  (MPSSessionName "marco")
-  (LastUsedLibraryBrowseDirectory "D:\Cadence\SPB_17.4\tools\capture\library"))
+      (Page "DETECTOR"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 104 1693 104 688")
+        (Scroll "-186 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "E:\00.LAVORI IN CORSO\METALTRONICA\25-335-0 ( CONTROLLO GENERATORE MAMMOGRAFICO)\25-335-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "CAN BUS"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 104 1693 104 688")
+        (Scroll "-186 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "E:\00.LAVORI IN CORSO\METALTRONICA\25-335-0 ( CONTROLLO GENERATORE MAMMOGRAFICO)\25-335-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "STARTER"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 130 1719 130 714")
+        (Scroll "-186 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "E:\00.LAVORI IN CORSO\METALTRONICA\25-335-0 ( CONTROLLO GENERATORE MAMMOGRAFICO)\25-335-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "MASMETRO"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 156 1745 156 740")
+        (Scroll "-186 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "E:\00.LAVORI IN CORSO\METALTRONICA\25-335-0 ( CONTROLLO GENERATORE MAMMOGRAFICO)\25-335-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "INPUT")))
+  (MPSSessionName "Osvaldo")
+  (ISPCBBASICLICENSE "false"))
